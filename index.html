@@ -1,201 +1,719 @@
-<!DOCTYPE HTML>
-<html>
-	<head>
-		<title>Alex SangHyeon Ahn</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
-		<!-- Custom CSS -->
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
-		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
-	</head>
-	<body>
-		<!-- Header -->
-			<header id="header">
-				<h1>Alex SangHyeon Ahn</h1>
-				<nav>
-					<ul>
-						<li><a href="#intro">Intro</a></li>
-						<li><a href="#one">Who I Am</a></li>
-						<li><a href="#two">What I do</a></li>
-						<li><a href="#work">Projects</a></li>
-						<li><a href="#contact">Contact</a></li>
-						<li><a href="resume.pdf">Resume</a></li>
-					</ul>
-				</nav>
-			</header>
+<!DOCTYPE html>
+<html lang="en">
 
-		<!-- Intro -->
-			<section id="intro" class="main style1 dark fullscreen">
-				<div class="content">
-					<header>
-						<h2>Hello!</h2>
-					</header>
-					
-					<p>My name is <strong>Alex (SangHyeon) Ahn</strong>, a student at Johns Hopkins University.
-					</p>
-					<p>
-					My current studies are on <strong>Computer Science</strong> and <strong>Applied Mathematics&Statistics</strong>.
-					</p>
-					<p>
-					I am an aspiring <strong> Software Engineer </strong> with the focus on <strong>Machine Learning</strong>.
-					</p>
-					<footer>
-						<a href="#one" class="button style2 down">More</a>
-					</footer>
-				</div>
-			</section>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <title>Hello, I'm Alex</title>
+  <!--modernizr -->
+  <link href="css/jquery.brickfolio.min.css" rel="stylesheet">
+  <!--brickfolio -->
+  <link href="css/reset.css" rel="stylesheet">
+  <!-- Favicon -->
+  <link rel="shortcut icon" type="image/png" href="img/favicon.png"/>
+  <!-- Bootstrap Core CSS -->
+  <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Theme CSS -->
+  <link href="css/freelancer.min.css" rel="stylesheet">
+  <!-- Custom Fonts -->
+  <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet"
+        type="text/css">
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+  <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+  <![endif]-->
+</head>
 
-		<!-- One -->
-			<section id="one" class="main style2 right dark fullscreen">
-				<div class="content box style2">
-					<header>
-						<h2>Who I Am</h2>
-					</header>
-					<p>I am a dedicated <strong>software engineer</strong>.</p>
-					<p>I love to explore <strong>data</strong>.</p>
-					<p>I am a <strong>driven</strong> problem solver</strong>.</p>
-					<p>I always crave for <strong>learning</strong> new things.</p>
-					<p>I believe in creating positive <strong>social impact</strong>.</p>
-				</div>
-				<a href="#two" class="button style2 down anchored">Next</a>
-			</section>
+<body id="page-top" class="index">
+<!-- Navigation -->
+<nav id="mainNav" class="navbar navbar-default navbar-fixed-top navbar-custom">
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header page-scroll">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span> <i class="fa fa-bars"></i></button>
+      <a class="navbar-brand" href="#page-top">Alex</a></div>
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li class="hidden">
+          <a href="#page-top"></a>
+        </li>
+        <li class="page-scroll"><a href="#about">About</a></li>
+        <li class="page-scroll"><a href="#experience">Experience</a></li>
+        <li class="page-scroll"><a href="#portfolio">Portfolio</a></li>
+        <li class="page-scroll"><a href="#contact">Contact</a></li>
+        <!--<li class="page-scroll">
+            <a href="#contact">Contact</a>
+        </li> -->
+      </ul>
+    </div>
+    <!-- /.navbar-collapse -->
+  </div>
+  <!-- /.container-fluid -->
+</nav>
+<!-- Header -->
+<header>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="intro-text"><span class="name">SangHyeon Ahn</span> <span class="skills">Student · Software Developer · Data Scientist</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+<!-- About Section -->
+<section class="success" id="about">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2>About</h2></div>
+    </div>
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2  text-center">
+        <p>My name is Alex, a student at Johns Hopkins Univertisy,</p>
+        <p>majoring in Computer Science & Applied Mathematics and Statistics.</p>
+        <p>I am a passionate builder of technology.</p>
+      </div>
+    </div>
+    <div class="col-lg-8 col-lg-offset-2 text-center">
+      <a class="btn btn-lg btn-outline" href="./files/resume.pdf" target="_blank"> <i class="fa fa-download"></i> Resume
+      </a>
+    </div>
+  </div>
+</section>
+<!-- To fix white line height, edit height of #cd-timeline::before in reset.css -->
+<section id="experience" class="cd-container">
+  <div class="row">
+    <div class="col-lg-2 text-center"></div>
+    <div id="cd-timeline" class="col-lg-8 text-center">
+      <h2>Experience</h2>
+      <!-- cd-timeline-block -->
+      <div class="cd-timeline-block">
+        <div class="cd-timeline-img cd-company"><img src="img/logo/moloco.png" alt="Picture"></div>
+        <!-- cd-timeline-img -->
+        <div class="cd-timeline-content text-left">
+          <h4 style="padding-bottom: 0px;">Moloco | Software Engineering Intern</h4>
+          <h5 style="padding-bottom: 0px;">May 2017 - January 2018</h5>
+          <p>• Collaborated in building a mobile DSP infrastructure scaled for 1000 ad campaigns on both frontend
+            (AngularJS) and backend (Go).</p>
+          <p>• Launched an Android, iOS, Unity, and JavaScript SDK for mobile event tracking using RESTful API (Moloco
+            VAN).</p>
+          <p>• Built an internal chat bot for campaign management with ad-hoc features such as summarizing KPIs from
+            cloud database (BigQuery).</p>
+          <p>• Automated and simplified over 35% of the campaign operation work flow by scripting tools such as price
+            model generator.</p>
+        </div>
+        <!-- cd-timeline-content -->
+      </div>
+      <!-- cd-timeline-block -->
+      <div class="cd-timeline-block">
+        <div class="cd-timeline-img cd-company"><img src="img/logo/jhu.png" alt="Picture"></div>
+        <!-- cd-timeline-img -->
+        <div class="cd-timeline-content text-left">
+          <h4 style="padding-bottom: 0px;">Dept. Computer Science, JHU | Research Assistant </h4>
+          <h5 style="padding-bottom: 0px;">Sept 2016 - May 2017</h5>
+          <p>• Developed various machine learning based prediction models using raw data scraped from the MLB Gameday
+            website using R and Python.</p>
+          <p>• Designed unique features, automated the model training process, and simplified cross-validation and ROC
+            analysis for evaluations.</p>
+          <p>• Created an API for predicting the next pitch ball type using pre-trained models for MLB team
+            managers.</p>
+        </div>
+        <!-- cd-timeline-content -->
+      </div>
+      <!-- cd-timeline-block -->
+      <div class="cd-timeline-block">
+        <div class="cd-timeline-img cd-company"><img src="img/logo/ex_parte.png" alt="Picture"></div>
+        <!-- cd-timeline-img -->
+        <div class="cd-timeline-content text-left">
+          <h4 style="padding-bottom: 0px;">Ex Parte | Data Engineer</h4>
+          <h5 style="padding-bottom: 0px;">Dec 2016 - April 2017</h5>
+          <p>• Designed a baseline prediction model for legal analytics in judicial decisions made in U.S. Court of
+            Appeals for the Federal Circuit.</p>
+          <p>• Built data ETL pipelines for constructing a relational database from world-wide-web, legal documents, and
+            existing databases.</p>
+        </div>
+      </div>
+      <!-- cd-timeline-block -->
+      <div class="cd-timeline-block">
+        <div class="cd-timeline-img cd-company"><img src="img/logo/jhu.png" alt="Picture"></div>
+        <!-- cd-timeline-img -->
+        <div class="cd-timeline-content text-left">
+          <h4 style="padding-bottom: 0px;">Course Assistant | JHU</h4>
+          <h5 style="padding-bottom: 0px;">Jan 2016 - May 2017</h5>
+          <p>• Intro to Machine Learning (Jan 2017 ~ May 2017)</p>
+          <p>• Data Structures (Sept 2016 ~ Dec 2016)</p>
+          <p>• Oral Presentations (Jan 2016 ~ Dec 2016)</p>
+        </div>
+      </div>
+      <!-- cd-timeline-block -->
+      <div class="cd-timeline-block">
+        <div class="cd-timeline-img cd-company"><img src="img/logo/idies.png" alt="Picture"></div>
+        <!-- cd-timeline-img -->
+        <div class="cd-timeline-content text-left">
+          <h4 style="padding-bottom: 0px;">Institute for Data Intensive Engineering and Science | Research
+            Programmer</h4>
+          <h5 style="padding-bottom: 0px;">May 2016 - Aug 2016</h5>
+          <p>• Wrote an optimization program in JavaScript for visualization of a network of multi-dimensional-nodes on
+            HTML Canvas.</p>
+          <p>• Devised functions for producing optimized coordinates for each node and edge curve point by calculating
+            collisions and noise levels.</p>
+        </div>
+        <!-- cd-timeline-content -->
+      </div>
+      <!-- cd-timeline-block -->
+      <div class="cd-timeline-block">
+        <div class="cd-timeline-img cd-company"><img src="img/logo/roka.png" alt="Picture"></div>
+        <!-- cd-timeline-img -->
+        <div class="cd-timeline-content text-left">
+          <h4 style="padding-bottom: 0px;">Republic of Korea Army | Sergeant Squad Leader</h4>
+          <h5 style="padding-bottom: 0px;">Nov 2013 - Aug 2015</h5>
+          <p>• Served as a military demolitionist in the Engineering Battalion of the 21st infantry division for 2
+            years.</p>
+          <p>• Awarded the Best Squad Leader award from division commander during 2015 spring training camp.</p>
+        </div>
+        <!-- cd-timeline-content -->
+      </div>
+      <!-- cd-timeline-block -->
+      <div class="cd-timeline-block">
+        <div class="cd-timeline-img cd-company"><img src="img/logo/standard_charatered.png" alt="Picture"></div>
+        <!-- cd-timeline-img -->
+        <div class="cd-timeline-content text-left">
+          <h4 style="padding-bottom: 0px;">Standard Charatered Bank | Data Analyst Intern</h4>
+          <h5 style="padding-bottom: 0px;">Aug 2013 - Nov 2013</h5>
+          <p>• Assorted product sales data (~$3.5billion/yr) from the database, conducting linear regression analysis
+            using Excel for sales projections.</p>
+          <p>• Summarized recent sales trends, estimated future revenues, and identified potential target clients (sales
+            flux over 15%) using pivot tables, creating a business report along with graphical models to represent the
+            performance of company products and sales teams on weekly basis.</p>
+        </div>
+        <!-- cd-timeline-content -->
+      </div>
+      <!-- cd-timeline-block -->
+      <div class="cd-timeline-block">
+        <div class="cd-timeline-img cd-company"><img src="img/logo/jhu.png" alt="Picture"></div>
+        <!-- cd-timeline-img -->
+        <div class="cd-timeline-content text-left">
+          <h4 style="padding-bottom: 0px;">Johns Hopkins University | Student</h4>
+          <h5 style="padding-bottom: 0px;">Sept 2012 - Present</h5>
+          <p>Computer Science, Applied Mathematic & Statistic Major</p>
+        </div>
+        <!-- cd-timeline-content -->
+      </div>
+    </div>
+  </div>
+  <!-- cd-timeline-block -->
+</section>
+<!-- Portfolio Grid Section -->
+<section id="portfolio">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2>Portfolio</h2></div>
+    </div>
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <div class="demo-wrapper">
+          <div class="text-center demo-options" style="text-align: center;">
+            <!--<label><input id="mixed_delay" type="checkbox" value="mixed-delay" checked>Mixed delays</label>-->
+            <label>
+              <input class="btn btn-lg btn-outline" name="filter" type="radio" value="" checked>All</label>
+            <label>
+              <input class="btn btn-lg btn-outline" name="filter" type="radio" value=".ml">Machine Learning</label>
+            <label>
+              <input class="btn btn-lg btn-outline" name="filter" type="radio" value=".python">Python</label>
+            <label>
+              <input class="btn btn-lg btn-outline" name="filter" type="radio" value=".java">Java</label>
+            <label>
+              <input class="btn btn-lg btn-outline" name="filter" type="radio" value=".js">JavaScript</label>
+            <label>
+              <input class="btn btn-lg btn-outline" name="filter" type="radio" value=".web">Web</label>
+            <label>
+              <input class="btn btn-lg btn-outline" name="filter" type="radio" value=".ios">iOS</label>
+            <label>
+              <input class="btn btn-lg btn-outline" name="filter" type="radio" value=".android">Android</label>
+            <!--				<label><input name="filter" type="radio" value=":not(.red)">Not Red</label>-->
+            <!--				<label><input id="load_delay" type="checkbox" value="1000" checked>Simulate loading</label>-->
+          </div>
+          <div class="brickfolio">
+            <div class=" portfolio-item bf-item ml python">
+              <a href="#sabermetric_modal" class="portfolio-link" data-toggle="modal">
+                <div class="caption">
+                  <div class="caption-content">
+                    <h3>Sabermetrics ML</h3></div>
+                </div>
+                <img src="./img/portfolio/sabermetric.jpg" class="img-responsive" alt=""> </a>
+            </div>
+            <div class=" portfolio-item bf-item ml python">
+              <a href="#facebook_sentiment_modal" class="portfolio-link" data-toggle="modal">
+                <div class="caption">
+                  <div class="caption-content">
+                    <h3>Sentiment Analysis</h3></div>
+                </div>
+                <img src="./img/portfolio/facebook_sentiment.jpg" class="img-responsive" alt=""> </a>
+            </div>
+            <div class=" portfolio-item bf-item ml python">
+              <a href="#multimodal_modal" class="portfolio-link" data-toggle="modal">
+                <div class="caption">
+                  <div class="caption-content">
+                    <h3>Multimodal Deep Learning Prediction</h3></div>
+                </div>
+                <img src="./img/portfolio/multimodal.jpg" class="img-responsive" alt=""> </a>
+            </div>
+            <div class=" portfolio-item bf-item python web">
+              <a href="#food_therapy_modal" class="portfolio-link" data-toggle="modal">
+                <div class="caption">
+                  <div class="caption-content">
+                    <h3>Food Therapy Recommender</h3></div>
+                </div>
+                <img src="./img/portfolio/food_therapy.jpg" class="img-responsive" alt=""> </a>
+            </div>
+            <div class=" portfolio-item bf-item ml python">
+              <a href="#social_dating_modal" class="portfolio-link" data-toggle="modal">
+                <div class="caption">
+                  <div class="caption-content">
+                    <h3>Social Dating Matching</h3></div>
+                </div>
+                <img src="./img/portfolio/social_dating.jpg" class="img-responsive" alt=""> </a>
+            </div>
+            <div class=" portfolio-item bf-item python web">
+              <a href="#semesterly_modal" class="portfolio-link" data-toggle="modal">
+                <div class="caption">
+                  <div class="caption-content">
+                    <h3>Semester.ly</h3></div>
+                </div>
+                <img src="./img/portfolio/semesterly.jpg" class="img-responsive" alt=""> </a>
+            </div>
+            <div class=" portfolio-item bf-item ios ml python">
+              <a href="#mavi_modal" class="portfolio-link" data-toggle="modal">
+                <div class="caption">
+                  <div class="caption-content">
+                    <h3>MAVI</h3></div>
+                </div>
+                <img src="./img/portfolio/mavi.jpg" class="img-responsive" alt=""> </a>
+            </div>
+            <div class=" portfolio-item bf-item js web">
+              <a href="#youniv_modal" class="portfolio-link" data-toggle="modal">
+                <div class="caption">
+                  <div class="caption-content">
+                    <h3>Youniv.io</h3></div>
+                </div>
+                <img src="./img/portfolio/youniv.jpg" class="img-responsive" alt=""> </a>
+            </div>
+            <div class=" portfolio-item bf-item android java">
+              <a href="#cafeit_modal" class="portfolio-link" data-toggle="modal">
+                <div class="caption">
+                  <div class="caption-content">
+                    <h3>Cafeit</h3></div>
+                </div>
+                <img src="./img/portfolio/cafeit.jpg" class="img-responsive" alt=""> </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Contact -->
+<section class="success" id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2>Contact</h2></div>
+    </div>
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2">
+        <form action="https://formspree.io/alexahn917@gmail.com" method="POST">
+          <div class="row control-group">
+            <div class="form-group col-xs-12 floating-label-form-group controls">
+              <input type="text" class="form-control" placeholder="Name" id="name" name="name"
+                     onfocus="this.placeholder = ''" onblur="this.placeholder = 'Name'" required
+                     data-validation-required-message="Please enter your name.">
+              <p class="help-block text-danger"></p>
+            </div>
+          </div>
+          <div class="row control-group">
+            <div class="form-group col-xs-12 floating-label-form-group controls">
+              <input type="email" class="form-control" placeholder="Email Address" id="email" name="_replyto"
+                     onfocus="this.placeholder = ''" onblur="this.placeholder = 'Email Address'" required
+                     data-validation-required-message="Please enter your email address.">
+              <p class="help-block text-danger"></p>
+            </div>
+          </div>
+          <div class="row control-group">
+            <div class="form-group col-xs-12 floating-label-form-group controls">
+              <input type="tel" class="form-control" placeholder="Phone Number" id="phone" name="phone"
+                     onfocus="this.placeholder = ''" onblur="this.placeholder = 'Phone Number'">
+              <p class="help-block text-danger"></p>
+            </div>
+          </div>
+          <div class="row control-group">
+            <div class="form-group col-xs-12 floating-label-form-group controls">
+              <textarea rows="5" class="form-control" placeholder="Message" id="message" name="_message"
+                        onfocus="this.placeholder = ''" onblur="this.placeholder = 'Message'" required
+                        data-validation-required-message="Please enter a message."></textarea>
+              <p class="help-block text-danger"></p>
+            </div>
+          </div>
+          <br>
+          <div id="success"></div>
+          <div class="row">
+            <div class="form-group col-xs-12">
+              <button type="submit" value="Send" class="btn btn-lg btn-outline">Send</button>
+            </div>
+          </div>
+          <!--                        Brings user back to site, as opposed to formspree-->
+          <input type="hidden" name="_next" value="index.html"/>
+          <!--Anti-spam-->
+          <input type="text" name="_gotcha" style="display:none"/></form>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Footer -->
+<footer class="text-center">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12"></div>
+      <ul class="list-inline">
+        <li><a onClick="location.href='mailto:alexahn917@gmail.com'" target="_blank" class="btn-social btn-outline"><i
+            class="fa fa-fw fa-envelope"></i></a></li>
+        <li><a href="https://github.com/alexahn917" target="_blank" class="btn-social btn-outline btn-outline-github"><i
+            class="fa fa-fw fa-github"></i></a></li>
+        <li><a href="https://www.linkedin.com/in/alexsanghyeonahn" target="_blank"
+               class="btn-social btn-outline btn-outline-linkedin"><i class="fa fa-fw fa-linkedin"></i></a></li>
+        <li><a href="https://www.facebook.com/aahn917" target="_blank"
+               class="btn-social btn-outline btn-outline-facebook"><i class="fa fa-fw fa-facebook"></i></a></li>
+      </ul>
+    </div>
+  </div>
+</footer>
+<!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
+<div class="scroll-top page-scroll hidden-sm hidden-xs hidden-lg hidden-md">
+  <a class="btn btn-primary" href="#page-top"> <i class="fa fa-chevron-up"></i> </a>
+</div>
+<!-- Portfolio Modals -->
+<div class="portfolio-modal modal fade" id="mavi_modal" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-content">
+    <div class="close-modal" data-dismiss="modal">
+      <div class="lr">
+        <div class="rl"></div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2">
+          <div class="modal-body">
+            <h2 class="h2-boxed">MAVI</h2>
+            <p>Created an AI mobile application addressing real life problems for visually impaired people through
+              verbal queries and computer vision.</p>
+            <div style="font-size: 20px;"><i class="fa fa-trophy" style="font-size: 30px;"></i>Awarded Best Healthcare
+              Project by JHMI for HopHacks 2017 Spring, a JHU affiliated Hackathon
+            </div>
+            <ul class="list-inline item-details">
+              <li><strong><a class="btn btn-sm btn-outline" href="https://sharewestern.firebaseapp.com/"
+                             target="_blank"><i class="fa fa-fw fa-code"></i>Site</a>
+              </strong></li>
+              <li><strong><a class="btn btn-sm btn-outline" href="https://github.com/BohanJiangg/shAReHackWestern4"
+                             target="_blank"><i class="fa fa-fw fa-github"></i> GitHub</a>
+              </strong></li>
+              <li><strong><a class="btn btn-sm btn-outline" href="https://devpost.com/software/sharehackwestern4"
+                             target="_blank"><i class="fa fa-fw fa-code-fork"></i> Devpost</a>
+              </strong></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="portfolio-modal modal fade" id="sabermetric_modal" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-content">
+    <div class="close-modal" data-dismiss="modal">
+      <div class="lr">
+        <div class="rl"></div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2">
+          <div class="modal-body">
+            <h2 class="h2-boxed">Sabermetrics ML</h2>
+            <p></p>
+            <ul class="list-inline item-details">
+              <li><strong><a class="btn btn-sm btn-outline" href="https://www.slideshare.net/slideshow/embed_code/key/4SogNCWKynMrIS"
+                             target="_blank"><i class="fa fa-fw fa-code"></i>Site</a>
+              </strong></li>
+              <li><strong><a class="btn btn-sm btn-outline" href="https://github.com/alexahn917/Baseball_Analytics_ML"
+                             target="_blank"><i class="fa fa-fw fa-github"></i> GitHub</a>
+              </strong></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="portfolio-modal modal fade" id="facebook_sentiment_modal" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-content">
+    <div class="close-modal" data-dismiss="modal">
+      <div class="lr">
+        <div class="rl"></div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2">
+          <div class="modal-body">
+            <h2 class="h2-boxed">Facebook Sentiment Analysis</h2>
+            <p></p>
+            <ul class="list-inline item-details">
+              <li><strong><a class="btn btn-sm btn-outline" href="https://www.slideshare.net/slideshow/embed_code/key/5DDSzzt2ubuSYZ"
+                             target="_blank"><i class="fa fa-fw fa-code"></i>Site</a>
+              </strong></li>
+              <li><strong><a class="btn btn-sm btn-outline" href="https://github.com/alexahn917/Facebook_Status_Semtiment_Analysis"
+                             target="_blank"><i class="fa fa-fw fa-github"></i> GitHub</a>
+              </strong></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="portfolio-modal modal fade" id="multimodal_modal" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-content">
+    <div class="close-modal" data-dismiss="modal">
+      <div class="lr">
+        <div class="rl"></div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2">
+          <div class="modal-body">
+            <h2 class="h2-boxed">Multimodal Deep Learning for Performance Prediction</h2>
+            <p></p>
+            <ul class="list-inline item-details">
+              <li><strong><a class="btn btn-sm btn-outline" href="https://www.slideshare.net/slideshow/embed_code/key/djTguKM8wmwgfz"
+                             target="_blank"><i class="fa fa-fw fa-code"></i>Site</a>
+              </strong></li>
+              <li><strong><a class="btn btn-sm btn-outline" href="https://github.com/jonl1096/MultimodalDeepLearning-PerformancePrediction"
+                             target="_blank"><i class="fa fa-fw fa-github"></i> GitHub</a>
+              </strong></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="portfolio-modal modal fade" id="food_therapy_modal" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-content">
+    <div class="close-modal" data-dismiss="modal">
+      <div class="lr">
+        <div class="rl"></div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2">
+          <div class="modal-body">
+            <h2 class="h2-boxed">Food Therapy Recommender</h2>
+            <p></p>
+            <ul class="list-inline item-details">
+              <li><strong><a class="btn btn-sm btn-outline" href="http://www.ansic.co.kr/"
+                             target="_blank"><i class="fa fa-fw fa-code"></i>Site</a>
+              </strong></li>
+              <li><strong><a class="btn btn-sm btn-outline" href="https://github.com/jipark721/kh_proj"
+                             target="_blank"><i class="fa fa-fw fa-github"></i> GitHub</a>
+              </strong></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="portfolio-modal modal fade" id="social_dating_modal" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-content">
+    <div class="close-modal" data-dismiss="modal">
+      <div class="lr">
+        <div class="rl"></div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2">
+          <div class="modal-body">
+            <h2 class="h2-boxed">Social Dating Matching Prediction</h2>
+            <p></p>
+            <ul class="list-inline item-details">
+              <li><strong><a class="btn btn-sm btn-outline" href="https://drive.google.com/open?id=0B7NVxhtTlVMvMTZQS3pMeWE0TUk"
+                             target="_blank"><i class="fa fa-fw fa-code"></i>Site</a>
+              </strong></li>
+              <li><strong><a class="btn btn-sm btn-outline" href="https://github.com/alexahn917/SocialDating_Matching_and_Clustering"
+                             target="_blank"><i class="fa fa-fw fa-github"></i> GitHub</a>
+              </strong></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="portfolio-modal modal fade" id="youniv_modal" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-content">
+    <div class="close-modal" data-dismiss="modal">
+      <div class="lr">
+        <div class="rl"></div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2">
+          <div class="modal-body">
+            <h2 class="h2-boxed">Youniv.io Network Optimization</h2>
+            <p></p>
+            <ul class="list-inline item-details">
+              <li><strong><a class="btn btn-sm btn-outline" href="https://youniv.io/"
+                             target="_blank"><i class="fa fa-fw fa-code"></i>Site</a>
+              </strong></li>
+              <li><strong><a class="btn btn-sm btn-outline" href="https://github.com/Sparen/Summer2016_Network"
+                             target="_blank"><i class="fa fa-fw fa-github"></i> GitHub</a>
+              </strong></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="portfolio-modal modal fade" id="cafeit_modal" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-content">
+    <div class="close-modal" data-dismiss="modal">
+      <div class="lr">
+        <div class="rl"></div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2">
+          <div class="modal-body">
+            <h2 class="h2-boxed">Cafeit</h2>
+            <p></p>
+            <ul class="list-inline item-details">
+              <li><strong><a class="btn btn-sm btn-outline" href="https://github.com/alexahn917/CafeIt"
+                             target="_blank"><i class="fa fa-fw fa-github"></i> GitHub</a>
+              </strong></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="portfolio-modal modal fade" id="semesterly_modal" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-content">
+    <div class="close-modal" data-dismiss="modal">
+      <div class="lr">
+        <div class="rl"></div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2">
+          <div class="modal-body">
+            <h2 class="h2-boxed">Semester.ly</h2>
+            <p></p>
+            <ul class="list-inline item-details">
+              <li><strong><a class="btn btn-sm btn-outline" href="https://semester.ly/"
+                             target="_blank"><i class="fa fa-fw fa-code"></i>Site</a>
+              </strong></li>
+              <li><strong><a class="btn btn-sm btn-outline" href="https://github.com/noahpresler/semesterly"
+                             target="_blank"><i class="fa fa-fw fa-github"></i> GitHub</a>
+              </strong></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- jQuery -->
+<script src="jquery/jquery.min.js"></script>
+<script src="jquery/jquery.brickfolio.min.js"></script>
+<script>
+  jQuery(function ($) {
+    var $container = $('.brickfolio')
+      , $load_delay = $('#load_delay')
+      , $filter = $('input[name="filter"]')
+      , $animation = $('#animation')
+      , $mixed_delay = $('#mixed_delay')
+      , getAnimation = function () {
+      return $animation.val() + ($mixed_delay.is(':checked') ? ' ' + $mixed_delay.val() : '');
+    }
+      , getLoadTime = function () {
+      return $load_delay.is(':checked') ? $load_delay.val() : 0;
+    }
+      , getFilter = function () {
+      return $filter.filter(':checked').val();
+    };
+    $filter.on('change', function () {
+      $container.brickfolio('filter', getFilter());
+    });
+    $load_delay.add($animation).add($mixed_delay).on('change', function () {
+      $container.brickfolio({
+        animation: getAnimation()
+        , filter: getFilter()
+        , loadTime: getLoadTime()
+      });
+    });
+    $container.brickfolio({
+      animation: getAnimation()
+      , filter: getFilter()
+      , loadTime: getLoadTime()
+    });
+  });
+</script>
+<script>
+  $(document).ready(function () {
+    $("#myBtn").click(function () {
+      $("#myModal").modal({
+        keyboard: true
+      });
+    });
+    $("#myBtn2").click(function () {
+      $("#myModal2").modal({
+        keyboard: false
+      });
+    });
+  });
+</script>
+<!-- Bootstrap Core JavaScript -->
+<!--    <script src="bootstrap/js/bootstrap.min.js"></script>-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<!-- Plugin JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+<!-- Contact Form JavaScript -->
+<script src="js/jqBootstrapValidation.js"></script>
+<script src="js/contact_me.js"></script>
+<!-- Theme JavaScript -->
+<script src="js/freelancer.min.js"></script>
+<!-- Timeline -->
+<script src="js/modernizr.js"></script>
+<script src="js/main.js"></script>
+</body>
+<div id="loading"></div>
 
-		<!-- Two -->
-			<section id="two" class="main style2 left dark fullscreen">
-				<div class="content box style2">
-					<header>
-						<h2>What I Can Do</h2>
-					</header>
-					<p>Build a <strong>machine learning</strong> package with API.</p>
-					<p>Create an <strong>artificial intelligence</strong> based mobile app.</p>
-					<p>Scrape & transform <strong>raw data</strong> using web crawlers.</p>
-					<p>Write <strong>parallel & optimization</strong> programs in JavaScript.</p>
-					<p>Construct <strong>mobile application</strong> with effective UI/UX.</p>
-					<p>Perform <strong>statistical analysis</strong> using R.</p>
-					<p>Effectively communicate as a <strong>TA</strong> for 3 courses.</p>
-				</div>
-				<a href="#work" class="button style2 down anchored">Next</a>
-			</section>
-		
-		    
-		<!-- Work -->
-			<section id="work" class="main style3 primary">
-				<div class="content">
-					<header>
-						<h2>Projects</h2>
-						<h4>(click title names for more information)</h4>
-						<p></p>
-					</header>
-
-					<!-- Gallery  -->
-						<div class="gallery">
-							<article class="from-left">
-								<a href="images/fulls/01.jpg" class="image fit"><img src="images/thumbs/01.jpg" title="Pitch Prediction Model" alt="Dept.CS" /></a>
-				                <h3 onclick=window.open("https://github.com/alexahn917/Baseball_Analytics_ML");>
-				                Pitch Prediction Model
-				                </h3>
-							</article>
-
-							<article class="from-right">
-								<a href="images/fulls/02.jpg" class="image fit"><img src="images/thumbs/02.jpg" title="Youniv.io" alt="" /></a>
-				                <h3 onclick=window.open("https://github.com/Sparen/Summer2016_Network");>
-				                Youniv.io
-				                </h3>
-							</article>
-
-							<article class="from-left">
-								<a href="images/fulls/03.jpg" class="image fit"><img src="images/thumbs/03.jpg" title="Social Dating Mathing and Clustering" alt=""/>
-								</a>
-								<h3 onclick=window.open("https://drive.google.com/open?id=0B7NVxhtTlVMvVkhPZ0hhRmNpUHM");>
-			                   	Social Dating: ML
-			                	</h3>
-							</article>
-
-							<article class="from-right">
-								<a href="images/fulls/04.jpg" class="image fit"><img src="images/thumbs/04.jpg" title="CafeIt" alt="" /></a>
-								<h3 onclick=window.open("https://github.com/alexahn917/CafeIt");>
-			                   	CafeIt
-			                	</h3>
-							</article>
-
-							<article class="from-left">
-								<a href="images/fulls/05.jpg" class="image fit"><img src="images/thumbs/05.jpg" title="MAVI" alt="HopHacks" /></a>
-								<h3 onclick=window.open("https://devpost.com/software/streetsmart-vc6hrf");>
-			                   	MAVI
-			                	</h3>
-							</article>
-
-							<article class="from-right">
-								<a href="images/fulls/06.jpg" class="image fit"><img src="images/thumbs/06.jpg" title="Ex Parte" alt="" /></a>
-								<h3>
-			                   	Ex Parte
-			                	</h3>
-							</article>
-
-							<article class="from-right">
-								<a href="images/fulls/07.jpg" class="image fit"><img src="images/thumbs/07.jpg" title="Facebook Sentiment Analysis" alt="" /></a>
-								<h3 onclick=window.open("https://drive.google.com/open?id=0B7NVxhtTlVMvMkwyWkJUeWhBZW8");>
-			                   	Facebook Sentiment Analysis
-			                	</h3>
-							</article>
-
-							<article class="from-right">
-								<a href="images/fulls/08.jpg" class="image fit"><img src="images/thumbs/08.jpg" title="Multimodal Deep Learning" alt="" /></a>
-								<h3 onclick=window.open("https://drive.google.com/open?id=0B7NVxhtTlVMvdFJ4Zy1sV3RyQ2c");>
-			                   	Multimodal Deep Learning Performance Prediction
-			                	</h3>
-							</article>
-						</div>
-				</div>
-			</section>
-
-		<!-- Contact -->
-			<section id="contact" class="main style3 secondary">
-				<div class="content">
-					<header>
-						<h2>Want to talk?</h2>
-						<p>Please leave me a note!</p>
-					</header>
-					<div class="box">
-						<form method="post" action="email.php">
-							<div class="field half first"><input type="text" name="name" placeholder="Name" /></div>
-							<div class="field half"><input type="email" name="email" placeholder="Email" /></div>
-							<div class="field"><textarea name="message" placeholder="Message" rows="6"></textarea></div>
-							<ul class="actions">
-								<li><input type="submit" value="Send Message" /></li>
-							</ul>
-						</form>
-					</div>
-				</div>
-			</section>
-
-		<!-- Footer -->
-			<footer id="footer">
-				<!-- Icons -->
-					<ul class="actions">
-						<li><a href="https://www.facebook.com/aahn917" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-						<li><a href="https://www.instagram.com/alxahn" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
-						<li><a href="https://www.linkedin.com/in/alexsanghyeonahn" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
-					</ul>
-
-				<!-- Menu -->
-					<ul class="menu">
-						<li>&copy; Alex SangHyeon Ahn</li><li>Design: ASH</li>
-					</ul>
-
-			</footer>
-
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.poptrox.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/skel.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-			<script src="assets/js/main.js"></script>
-
-	</body>
 </html>
