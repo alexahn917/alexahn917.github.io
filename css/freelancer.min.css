@@ -649,7 +649,7 @@ fieldset[disabled] .btn-success:hover {
 }
 
 .portfolio-modal .modal-body h2 {
-    margin: 20px 10px 10px 10px;
+    padding: 0 10px 50px 0
 }
 
 .portfolio-modal .close-modal {
