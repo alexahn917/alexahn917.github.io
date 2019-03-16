@@ -21,7 +21,17 @@ body {
 
 @media (max-width:768px) {
     body {
+        overflow: auto;
+        overflow-x:hidden;
+        max-width: 100%;
+        min-height: 100%;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        background-size: cover;
+        -o-background-size: cover;
+        background-position: center;
         background-image: linear-gradient(rgba(255, 161, 0, 0.4), rgba(0, 141, 255, 0.3)), url("../img/background/paper_small.jpg");
+        background-attachment: fixed;
     }
 }
 
