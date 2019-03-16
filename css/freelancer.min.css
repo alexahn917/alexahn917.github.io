@@ -15,13 +15,13 @@ body {
     background-size: cover;
     -o-background-size: cover;
     background-position: center;
-    background-image: linear-gradient(rgba(252, 168, 25, 0.5), rgba(0, 0, 0, 0.10)), url("../img/background/paper.jpg");
+    background-image: linear-gradient(rgba(255, 161, 0, 0.4), rgba(0, 141, 255, 0.3)), url("../img/background/paper.jpg");
     background-attachment: fixed;
 }
 
 @media (max-width:768px) {
     body {
-        background-image: linear-gradient(rgba(252, 168, 25, 0.5), rgba(0, 0, 0, 0.10)), url("../img/background/paper.jpg");
+        background-image: linear-gradient(rgba(255, 161, 0, 0.4), rgba(0, 141, 255, 0.3)), url("../img/background/paper_small.jpg");
     }
 }
 
